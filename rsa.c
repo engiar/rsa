@@ -81,7 +81,7 @@ void decrypt(int * cyphed_data, char * clear_data, int len, int *n, int *d){
 int main(){
     int rsa_p = 17, rsa_q = 41; // Two prime numbers choosen by the user.
     int rsa_len; // Size of the message
-    int rsa_d, rsa_e, rsa_n; // These will be calculated by the algorithm to from the 'public key' (n,e) and the 'private key' (n,d).
+    int rsa_d, rsa_e, rsa_n; // These will be calculated by the algorithm to form the 'public key' (n,e) and the 'private key' (n,d).
     char original_msg[100], uncyphed_msg[100]; // String to be cyphed
     int cyphed_msg[100]; // Array of ints which will contain the cyphed message
 
